@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudip Mondal — Flutter Developer & Mobile Engineer</title>
+  <meta name="description" content="Portfolio of Sudip Mondal — Senior Flutter Developer with 3.5+ years of experience building scalable cross-platform mobile applications." />
+  <meta name="keywords" content="Sudip Mondal, Flutter Developer, Mobile Engineer, Dart, Cross-Platform, Portfolio" />
+  <meta property="og:title" content="Sudip Mondal — Flutter Developer" />
+  <meta property="og:description" content="Senior Flutter Developer crafting pixel-perfect cross-platform mobile experiences." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="glow-orb glow-orb--1"></div>
+  <div class="glow-orb glow-orb--2"></div>
+  <div class="glow-orb glow-orb--3"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="assets/Sudip_Mondal_Resume.pdf" download="Sudip_Mondal_Resume.pdf" class="nav__resume-btn" id="nav-resume-btn">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Resume
+    </a>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__content">
+          <div class="hero__tag">
+            <span class="dot"></span>
+            Available for opportunities
+          </div>
+          <h1 class="hero__name">
+            Sudip<br /><span class="gradient">Mondal</span>
+          </h1>
+          <p class="hero__role"><span class="typing-text"></span><span class="cursor"></span></p>
+          <p class="hero__desc">
+            Software Engineer with 3.5+ years crafting scalable cross-platform mobile applications.
+            Specialized in Flutter, Dart, Firebase & clean architecture — building experiences
+            that feel native on every platform.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+              View Work
+            </a>
+            <a href="mailto:mandalsudip367@gmail.com" class="btn btn--outline">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              Get in Touch
+            </a>
+            <a href="assets/Sudip_Mondal_Resume.pdf" download="Sudip_Mondal_Resume.pdf" class="btn btn--resume" id="download-resume">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero__avatar-wrap">
+          <div class="hero__avatar-ring"></div>
+          <img src="assets/IMG_20250830_222709.png" alt="Sudip Mondal" class="hero__avatar" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat">
+        <div class="stat__number" data-target="3.5" data-suffix="+">0</div>
+        <div class="stat__label">Years Exp.</div>
+      </div>
+      <div class="stat">
+        <div class="stat__number" data-target="6" data-suffix="+">0</div>
+        <div class="stat__label">Shipped Apps</div>
+      </div>
+      <div class="stat">
+        <div class="stat__number" data-target="15" data-suffix="+">0</div>
+        <div class="stat__label">Screen Sizes</div>
+      </div>
+      <div class="stat">
+        <div class="stat__number" data-target="99" data-suffix="%">0</div>
+        <div class="stat__label">Pixel Accuracy</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="reveal">
+        <p class="section__label">Who I Am</p>
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="about__grid reveal">
+        <div class="about__text">
+          <p>
+            I'm a Senior Flutter Developer based in Surat, Gujarat, India — passionate about turning complex
+            ideas into elegant, high-performance mobile experiences. With 3.5+ years at Zluck Solutions,
+            I've shipped apps across Android, iOS, and macOS with a focus on clean architecture and pixel-perfect UI.
+          </p>
+          <p>
+            I leverage Prompt Engineering and AI tools to accelerate development, architect mission-critical
+            apps using BLoC pattern, and mentor junior developers. My journey from a Diploma in IT to a B.Tech
+            in Computer Engineering fueled a relentless drive to learn and build.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring new technologies, experimenting with side projects, and keeping up
+            with the latest Flutter, Firebase & mobile development trends.
+          </p>
+        </div>
+        <div class="about__info">
+          <div class="about__info-item">
+            <div class="about__info-label">Name</div>
+            <div class="about__info-value">Sudip Mondal</div>
+          </div>
+          <div class="about__info-item">
+            <div class="about__info-label">Location</div>
+            <div class="about__info-value">Surat, Gujarat 🇮🇳</div>
+          </div>
+          <div class="about__info-item">
+            <div class="about__info-label">Email</div>
+            <div class="about__info-value" style="font-size:0.82rem">mandalsudip367@gmail.com</div>
+          </div>
+          <div class="about__info-item">
+            <div class="about__info-label">Current Role</div>
+            <div class="about__info-value">Sr. Mobile Developer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="reveal">
+        <p class="section__label">Career Path</p>
+        <h2 class="section__title">Work Experience</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <div class="timeline__header">
+            <h3 class="timeline__title">Sr. Mobile Developer</h3>
+            <span class="timeline__date">May 2025 — Present</span>
+          </div>
+          <p class="timeline__company">Zluck Solutions · Surat, Gujarat</p>
+          <ul class="timeline__list">
+            <li>Leveraged Prompt Engineering and AI tools to accelerate development cycles and increase team productivity by 30%</li>
+            <li>Architected and delivered a mission-critical mobile application using the BLoC pattern for robust state management</li>
+            <li>Developed projects using native APIs for Android, iOS & macOS through platform-specific code</li>
+            <li>Enforced Clean Architecture principles and conducted code reviews to ensure maintainable and testable codebases</li>
+          </ul>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__header">
+            <h3 class="timeline__title">Jr. Mobile Developer</h3>
+            <span class="timeline__date">Oct 2022 — Apr 2025</span>
+          </div>
+          <p class="timeline__company">Zluck Solutions · Surat, Gujarat</p>
+          <ul class="timeline__list">
+            <li>Integrated In-App Purchase & many third-party libraries with Flutter apps</li>
+            <li>Developed & maintained cross-platform mobile applications using Flutter & Dart with REST APIs & Firebase</li>
+            <li>Translated complex Figma designs into responsive Flutter UI, maintaining 99% pixel accuracy across 15+ screen sizes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="reveal">
+        <p class="section__label">Expertise</p>
+        <h2 class="section__title">Skills & Technologies</h2>
+      </div>
+      <div class="skills__grid reveal">
+        <div class="skill-card">
+          <div class="skill-card__icon">📱</div>
+          <h3 class="skill-card__title">Mobile Development</h3>
+          <div class="skill-card__tags">
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Dart</span>
+            <span class="skill-tag">React Native</span>
+            <span class="skill-tag">Kotlin</span>
+            <span class="skill-tag">Swift</span>
+            <span class="skill-tag">Android</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">⚙️</div>
+          <h3 class="skill-card__title">State Management & Architecture</h3>
+          <div class="skill-card__tags">
+            <span class="skill-tag">BLoC</span>
+            <span class="skill-tag">Provider</span>
+            <span class="skill-tag">Riverpod</span>
+            <span class="skill-tag">Clean Architecture</span>
+            <span class="skill-tag">MVVM</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🔥</div>
+          <h3 class="skill-card__title">Backend & Databases</h3>
+          <div class="skill-card__tags">
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Supabase</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🛠</div>
+          <h3 class="skill-card__title">Tools & DevOps</h3>
+          <div class="skill-card__tags">
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">FCM</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">💻</div>
+          <h3 class="skill-card__title">Languages</h3>
+          <div class="skill-card__tags">
+            <span class="skill-tag">Dart</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🤝</div>
+          <h3 class="skill-card__title">Soft Skills</h3>
+          <div class="skill-card__tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Mentorship</span>
+            <span class="skill-tag">Collaboration</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="reveal">
+        <p class="section__label">Portfolio</p>
+        <h2 class="section__title">Featured Projects</h2>
+      </div>
+      <div class="projects__grid reveal">
+
+        <div class="project-card">
+          <div class="project-card__body">
+            <h3 class="project-card__title">privateLINE Connect</h3>
+            <p class="project-card__desc">
+              VPN client using WireGuard® end-to-end encryption. Built with platform-specific Kotlin/Swift
+              for WireGuard service, using Channel & EventChannel to bridge native functions in Flutter.
+              Includes In-App Purchase integration.
+            </p>
+            <div class="project-card__tech">
+              <span>Flutter</span><span>Kotlin</span><span>Swift</span><span>WireGuard</span><span>IAP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__body">
+            <h3 class="project-card__title">Grateful Hearts (AI)</h3>
+            <p class="project-card__desc">
+              AI-integrated journaling platform with HTML-compatible rich-text journals, auth, social features
+              (follow, like/comment). Backend built with Node.js & MySQL, utilizing LLM-assisted development workflows.
+            </p>
+            <div class="project-card__tech">
+              <span>Flutter</span><span>Node.js</span><span>MySQL</span><span>AI/LLM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__body">
+            <h3 class="project-card__title">privateLINE Auth</h3>
+            <p class="project-card__desc">
+              2FA authenticator supporting HOTP & TOTP algorithms. Industry-standard, compatible with
+              thousands of services including Google Authenticator-supported platforms.
+            </p>
+            <div class="project-card__tech">
+              <span>Flutter</span><span>HOTP</span><span>TOTP</span><span>Security</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__body">
+            <h3 class="project-card__title">Sangini</h3>
+            <p class="project-card__desc">
+              Building management app for customers & brokers — featuring house referrals, voucher redemption,
+              complaint raising, document storage and more.
+            </p>
+            <div class="project-card__tech">
+              <span>Flutter</span><span>Firebase</span><span>REST API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__body">
+            <h3 class="project-card__title">Live Alarm</h3>
+            <p class="project-card__desc">
+              Emergency response app for dangerous situations. Features live map markers with
+              interactive street view for faster, safer, and smarter response.
+            </p>
+            <div class="project-card__tech">
+              <span>Flutter</span><span>Maps</span><span>Street View</span><span>Real-time</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__body">
+            <h3 class="project-card__title">Quiz Master</h3>
+            <p class="project-card__desc">
+              Coding quiz game with rich animations & optimization. Features online challenges,
+              leaderboard, quiz sharing, and an engaging feature-rich environment.
+            </p>
+            <div class="project-card__tech">
+              <span>Flutter</span><span>Animations</span><span>Leaderboard</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="reveal">
+        <p class="section__label">Background</p>
+        <h2 class="section__title">Education</h2>
+      </div>
+      <div class="edu__grid reveal">
+        <div class="edu-card">
+          <div>
+            <h3 class="edu-card__degree">B.Tech in Computer Engineering</h3>
+            <p class="edu-card__school">Bhagwan Mahavir University · Surat · First Class</p>
+          </div>
+          <span class="edu-card__year">2021 — 2024</span>
+        </div>
+        <div class="edu-card">
+          <div>
+            <h3 class="edu-card__degree">Diploma in Information Technology</h3>
+            <p class="edu-card__school">Gujarat Technological University (GTU) · Surat · 8.05 CGPA</p>
+          </div>
+          <span class="edu-card__year">2018 — 2021</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact__inner reveal">
+        <p class="section__label" style="justify-content:center">Get in Touch</p>
+        <h2 class="section__title" style="text-align:center">Let's Build Something<br />Together</h2>
+        <p class="contact__desc">
+          I'm always open to discussing new projects, creative ideas, or opportunities to be part of
+          something amazing. Feel free to reach out!
+        </p>
+        <div class="contact__links">
+          <a href="mailto:mandalsudip367@gmail.com" class="contact__link">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/sudip-mandal-x367" target="_blank" class="contact__link">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/mandalsudip367" target="_blank" class="contact__link">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="https://x.com/mandalsudip367" target="_blank" class="contact__link">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X (Twitter)
+          </a>
+        </div>
+        <a href="tel:+917984203912" class="btn btn--primary" style="margin:0 auto">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          +91 7984203912
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Sudip Mondal. Crafted with passion 💙</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
